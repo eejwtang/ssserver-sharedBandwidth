@@ -1,0 +1,8 @@
+<service>
+    <id>ssserver</id>
+    <name>ssserver</name>
+    <description>ssserver带宽提速服务端</description>
+    <executable>shadowsocks-libqss</executable>
+    <arguments>-c config.json -S</arguments>
+    <logmode>rotate</logmode>
+</service>
