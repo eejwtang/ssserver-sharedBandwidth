@@ -10,7 +10,7 @@ shadowsocks、shadowsocks-libqss、winsw。
 
 ## 配置服务端
 1. 快捷键win+q输入cmd以管理员身份运行,进入希望存放的目录后输入如下命令
-2. git clone https://github.com/eejwtang/ssserver-shared-bandwidth.git
+2. git clone https://github.com/eejwtang/ssserver-sharedBandwidth.git
 3. cd ssserver-sharedBandwidth
 4. ssserversw install 
 5. ssserversw start
