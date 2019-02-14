@@ -1,0 +1,104 @@
+2019-02-14 12:05:25,138 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-02-14 12:05:25,476 INFO  - Installing the service with id 'drcom'
+2019-02-14 12:05:25,476 FATAL - Unhandled exception
+System.Exception: Installation failure: Service with id 'drcom' already exists
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2019-02-14 12:05:58,775 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-02-14 12:05:59,156 INFO  - Installing the service with id 'ssserver'
+2019-02-14 12:05:59,163 FATAL - WMI Operation failure: AccessDenied
+WMI.WmiException: AccessDenied
+   在 WMI.WmiRoot.BaseHandler.CheckError(ManagementBaseObject result)
+   在 WMI.WmiRoot.ClassHandler.Invoke(Object proxy, MethodInfo method, Object[] args)
+   在 WMI.Win32ServicesProxy.Create(String , String , String , ServiceType , ErrorControl , StartMode , Boolean , String , String , String[] )
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2019-02-14 12:09:02,720 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-02-14 12:09:03,124 INFO  - Installing the service with id 'ssserver'
+2019-02-14 12:09:03,132 FATAL - WMI Operation failure: AccessDenied
+WMI.WmiException: AccessDenied
+   在 WMI.WmiRoot.BaseHandler.CheckError(ManagementBaseObject result)
+   在 WMI.WmiRoot.ClassHandler.Invoke(Object proxy, MethodInfo method, Object[] args)
+   在 WMI.Win32ServicesProxy.Create(String , String , String , ServiceType , ErrorControl , StartMode , Boolean , String , String , String[] )
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2019-02-14 12:09:27,367 INFO  - Starting ServiceWrapper in the service mode
+2019-02-14 12:09:29,484 DEBUG - Completed. Exit code is 0
+2019-02-14 12:09:36,139 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-02-14 12:09:36,472 INFO  - Installing the service with id 'ssserver'
+2019-02-14 12:09:36,487 FATAL - WMI Operation failure: AccessDenied
+WMI.WmiException: AccessDenied
+   在 WMI.WmiRoot.BaseHandler.CheckError(ManagementBaseObject result)
+   在 WMI.WmiRoot.ClassHandler.Invoke(Object proxy, MethodInfo method, Object[] args)
+   在 WMI.Win32ServicesProxy.Create(String , String , String , ServiceType , ErrorControl , StartMode , Boolean , String , String , String[] )
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2019-02-14 12:10:17,504 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-02-14 12:10:17,857 INFO  - Installing the service with id 'ssserver'
+2019-02-14 12:10:17,873 FATAL - WMI Operation failure: AccessDenied
+WMI.WmiException: AccessDenied
+   在 WMI.WmiRoot.BaseHandler.CheckError(ManagementBaseObject result)
+   在 WMI.WmiRoot.ClassHandler.Invoke(Object proxy, MethodInfo method, Object[] args)
+   在 WMI.Win32ServicesProxy.Create(String , String , String , ServiceType , ErrorControl , StartMode , Boolean , String , String , String[] )
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2019-02-14 12:12:32,193 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-02-14 12:12:32,614 INFO  - Installing the service with id 'ssserver'
+2019-02-14 12:12:32,630 FATAL - WMI Operation failure: AccessDenied
+WMI.WmiException: AccessDenied
+   在 WMI.WmiRoot.BaseHandler.CheckError(ManagementBaseObject result)
+   在 WMI.WmiRoot.ClassHandler.Invoke(Object proxy, MethodInfo method, Object[] args)
+   在 WMI.Win32ServicesProxy.Create(String , String , String , ServiceType , ErrorControl , StartMode , Boolean , String , String , String[] )
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2019-02-14 12:16:03,182 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-02-14 12:16:03,595 INFO  - Installing the service with id 'ssserver'
+2019-02-14 12:16:03,611 FATAL - WMI Operation failure: AccessDenied
+WMI.WmiException: AccessDenied
+   在 WMI.WmiRoot.BaseHandler.CheckError(ManagementBaseObject result)
+   在 WMI.WmiRoot.ClassHandler.Invoke(Object proxy, MethodInfo method, Object[] args)
+   在 WMI.Win32ServicesProxy.Create(String , String , String , ServiceType , ErrorControl , StartMode , Boolean , String , String , String[] )
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2019-02-14 12:16:52,331 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-02-14 12:16:52,702 INFO  - Installing the service with id 'ssserver'
+2019-02-14 12:16:52,718 FATAL - WMI Operation failure: AccessDenied
+WMI.WmiException: AccessDenied
+   在 WMI.WmiRoot.BaseHandler.CheckError(ManagementBaseObject result)
+   在 WMI.WmiRoot.ClassHandler.Invoke(Object proxy, MethodInfo method, Object[] args)
+   在 WMI.Win32ServicesProxy.Create(String , String , String , ServiceType , ErrorControl , StartMode , Boolean , String , String , String[] )
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2019-02-14 12:17:13,707 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-02-14 12:17:14,082 INFO  - Installing the service with id 'ssserver'
+2019-02-14 12:17:14,098 FATAL - WMI Operation failure: AccessDenied
+WMI.WmiException: AccessDenied
+   在 WMI.WmiRoot.BaseHandler.CheckError(ManagementBaseObject result)
+   在 WMI.WmiRoot.ClassHandler.Invoke(Object proxy, MethodInfo method, Object[] args)
+   在 WMI.Win32ServicesProxy.Create(String , String , String , ServiceType , ErrorControl , StartMode , Boolean , String , String , String[] )
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2019-02-14 12:18:26,529 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-02-14 12:18:26,902 INFO  - Installing the service with id 'ssserver'
+2019-02-14 12:18:26,920 DEBUG - Completed. Exit code is 0
+2019-02-14 12:19:59,988 INFO  - Starting ServiceWrapper in the service mode
+2019-02-14 12:20:00,041 INFO  - Starting D:\git_workspace\ssserver\shadowsocks-libqss -c config.json -S
+2019-02-14 12:20:00,049 INFO  - Starting D:\git_workspace\ssserver\shadowsocks-libqss -c config.json -S
+2019-02-14 12:20:00,071 INFO  - Started process 16172
+2019-02-14 12:20:00,081 DEBUG - Forwarding logs of the process System.Diagnostics.Process (shadowsocks-libqss) to winsw.SizeBasedRollingLogAppender
+2019-02-14 12:54:59,699 INFO  - Stopping ssserver
+2019-02-14 12:54:59,699 DEBUG - ProcessKill 16172
+2019-02-14 12:54:59,840 INFO  - Found child process: 940 Name: conhost.exe
+2019-02-14 12:54:59,887 INFO  - Stopping process 940
+2019-02-14 12:54:59,887 INFO  - Send SIGINT 940
+2019-02-14 12:54:59,903 WARN  - SIGINT to 940 failed - Killing as fallback
+2019-02-14 12:54:59,903 INFO  - Stopping process 16172
+2019-02-14 12:54:59,918 INFO  - Send SIGINT 16172
+2019-02-14 12:54:59,918 WARN  - SIGINT to 16172 failed - Killing as fallback
+2019-02-14 12:54:59,918 INFO  - Finished ssserver
+2019-02-14 12:54:59,934 DEBUG - Completed. Exit code is 0
+2019-02-14 13:07:12,957 INFO  - Starting ServiceWrapper in the service mode
+2019-02-14 13:07:13,001 INFO  - Starting D:\git_workspace\ssserver\shadowsocks-libqss -c config.json -S
+2019-02-14 13:07:13,009 INFO  - Starting D:\git_workspace\ssserver\shadowsocks-libqss -c config.json -S
+2019-02-14 13:07:13,027 INFO  - Started process 12780
+2019-02-14 13:07:13,042 DEBUG - Forwarding logs of the process System.Diagnostics.Process (shadowsocks-libqss) to winsw.SizeBasedRollingLogAppender
