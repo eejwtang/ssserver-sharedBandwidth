@@ -1,15 +1,26 @@
 # ssserver-shared-bandwidth
-用ssserver在局域网内的多台电脑上开代理，利用shadowsocks负载均衡实现实验室带宽提速，突破实验室Dr.com的4M带宽的限速
 
+> 共享带宽，加速实验室网络
 
-学校实验室限制了每台电脑接入外网的带宽(4M)
+实验室Dr.com利用IP对每台电脑做了4M的限速
 
+shadowsocks-libqss、winsw、shadowsocks。
+## 
 
+## 配置服务端
 
-教程：
-本机服务端配置：
-- git clone 
-- cd ssserver-shared-bandwidth
-- sserversw install
+1. git clone https://github.com/eejwtang/ssserver-shared-bandwidth.git
+2. cd ssserver-shared-bandwidth
+3. ssserversw install (这里要以管理员身份运行cmd)
+4. ssserversw start
 
-客户端配置：
+## 配置客户端
+
+1. 打开shadowsocks，添加局域网内已经搭建好的ss服务器地址
+2. 右击shadowsocks，选择服务器负载均衡。
+
+## URL
+ss://cmM0LW1kNTpiYXJmb28hQDEwLjEyLjE0LjIxOjEyMTk5#21
+ss://cmM0LW1kNTpiYXJmb28hQDEwLjEyLjEzLjE4ODoxMjE5OQ==#fws
+ss://cmM0LW1kNTpiYXJmb28hQDEwLjEyLjEzLjE5OToxMjE5OQ==#yzh
+ss://cmM0LW1kNTpiYXJmb28hQDEwLjEyLjEzLjc1OjEyMTk5#jwtang
