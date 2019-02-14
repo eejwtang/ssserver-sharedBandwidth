@@ -1,18 +1,21 @@
-# ssserver-shared-bandwidth
+# ssserver-sharedBandwidth
 
 > 共享带宽，加速实验室网络
 
-实验室Dr.com利用IP对每台电脑做了4M的限速
+突破实验室Dr.com环境下给每个IP只分配4M带宽的限速
 
-shadowsocks-libqss、winsw、shadowsocks。
-## 
+shadowsocks、shadowsocks-libqss、winsw。
+
+# 服务端和客户端安装配置
 
 ## 配置服务端
-
-1. git clone https://github.com/eejwtang/ssserver-shared-bandwidth.git
-2. cd ssserver-shared-bandwidth
-3. ssserversw install (这里要以管理员身份运行cmd)
-4. ssserversw start
+1. 快捷键win+q输入cmd以管理员身份运行,进入希望存放的目录后输入如下命令
+2. git clone https://github.com/eejwtang/ssserver-shared-bandwidth.git
+3. cd ssserver-sharedBandwidth
+4. ssserversw install 
+5. ssserversw start
+6. 设置shadowsocks-libqss防火墙：
+	控制面板-->系统和安全-->Windows Defender 防火墙-->允许应用或功能通过 Windows Defender 防火墙-->更改设置-->找到shadowsocks-libqss将专用公用的勾打上-->确定即可
 
 ## 配置客户端
 
@@ -24,3 +27,19 @@ ss://cmM0LW1kNTpiYXJmb28hQDEwLjEyLjE0LjIxOjEyMTk5#21
 ss://cmM0LW1kNTpiYXJmb28hQDEwLjEyLjEzLjE4ODoxMjE5OQ==#fws
 ss://cmM0LW1kNTpiYXJmb28hQDEwLjEyLjEzLjE5OToxMjE5OQ==#yzh
 ss://cmM0LW1kNTpiYXJmb28hQDEwLjEyLjEzLjc1OjEyMTk5#jwtang
+ss://cmM0LW1kNTpiYXJmb28hQDEwLjEyLjEzLjE3NToxMjE5OQ==#yeq
+ss://cmM0LW1kNTpiYXJmb28hQDEwLjEyLjEzLjE5OjEyMTk5#zham
+
+# 实现过程
+
+## 思路
+学校实验室通过Dr.com的方式认证上网，并且给每个账号只分配了独立的4Mb的带宽，实验室有25个人就有25个4M带宽，浏览网页、简单的下载都只有500Kb/s左右的速度，和寝室里的百兆带宽比起来真的是捉襟见肘。我们想能不能吧这20条4Mbps的小溪并到一起，合成一条所有人可以共享的100Mbps的大江，愉快地科研。
+
+- shadowsocks的问世由于emmmm，科学上网
+
+## 工具
+
+
+Reference：
+- [Windows下三分钟搭建Shadowoscks服务器端](https://www.librehat.com/three-minutes-to-set-up-shadowsocks-server-on-windows/)
+- [GitHub-libQtShadowsocks](https://github.com/shadowsocks/libQtShadowsocks)
