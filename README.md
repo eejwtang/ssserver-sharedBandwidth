@@ -2,7 +2,7 @@
 
 > 共享带宽，加速实验室网络
 
-突破实验室Dr.com环境下给每个IP只分配4M带宽的限速
+突破局域网Dr.com环境下给每个IP只分配4M带宽的限速
 
 shadowsocks、shadowsocks-libqss、winsw。
 
