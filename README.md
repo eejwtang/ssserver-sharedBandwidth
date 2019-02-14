@@ -12,8 +12,8 @@ shadowsocks、shadowsocks-libqss、winsw。
 1. 快捷键win+q输入cmd以管理员身份运行,进入希望存放的目录后输入如下命令
 2. git clone https://github.com/eejwtang/ssserver-sharedBandwidth.git
 3. cd ssserver-sharedBandwidth
-4. ssserversw install 
-5. ssserversw start
+4. ssserverSW.NET4 install 
+5. ssserverSW.NET4 start
 6. 设置shadowsocks-libqss防火墙：
 	控制面板-->系统和安全-->Windows Defender 防火墙-->允许应用或功能通过 Windows Defender 防火墙-->更改设置-->找到shadowsocks-libqss将专用公用的勾打上-->确定即可
 
