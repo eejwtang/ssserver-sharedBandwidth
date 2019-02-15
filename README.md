@@ -22,7 +22,7 @@ shadowsocks、shadowsocks-libqss、winsw。
 1. 打开shadowsocks客户端，添加局域网内已经搭建好的ss服务器地址
 2. 右击shadowsocks客户端，选择服务器负载均衡。
 
-### URL List
+### URL Lists
 ss://cmM0LW1kNTpiYXJmb28hQDEwLjEyLjE0LjIxOjEyMTk5#21
 ss://cmM0LW1kNTpiYXJmb28hQDEwLjEyLjEzLjE4ODoxMjE5OQ==#fws
 ss://cmM0LW1kNTpiYXJmb28hQDEwLjEyLjEzLjE5OToxMjE5OQ==#yzh
@@ -30,6 +30,7 @@ ss://cmM0LW1kNTpiYXJmb28hQDEwLjEyLjEzLjc1OjEyMTk5#jwtang
 ss://cmM0LW1kNTpiYXJmb28hQDEwLjEyLjEzLjE3NToxMjE5OQ==#yeq
 ss://cmM0LW1kNTpiYXJmb28hQDEwLjEyLjEzLjE5OjEyMTk5#zham
 ss://cmM0LW1kNTpiYXJmb28hQDEwLjEyLjEzLjE1MToxMjE5OQ==#wuh
+ss://cmM0LW1kNTpiYXJmb28hQDEwLjEyLjEzLjEwNjoxMjE5OQ==#xiew
 
 # 实现过程
 
