@@ -23,17 +23,7 @@ shadowsocks、shadowsocks-libqss、winsw。
 2. 右击shadowsocks客户端，选择服务器负载均衡。
 
 ### URL Lists
-ss://cmM0LW1kNTpiYXJmb28hQDEwLjEyLjE0LjIxOjEyMTk5#21
-ss://cmM0LW1kNTpiYXJmb28hQDEwLjEyLjEzLjE4ODoxMjE5OQ==#fws
-ss://cmM0LW1kNTpiYXJmb28hQDEwLjEyLjEzLjE5OToxMjE5OQ==#yzh
-ss://cmM0LW1kNTpiYXJmb28hQDEwLjEyLjEzLjc1OjEyMTk5#jwtang
-ss://cmM0LW1kNTpiYXJmb28hQDEwLjEyLjEzLjE3NToxMjE5OQ==#yeq
-ss://cmM0LW1kNTpiYXJmb28hQDEwLjEyLjEzLjE5OjEyMTk5#zham
-ss://cmM0LW1kNTpiYXJmb28hQDEwLjEyLjEzLjE1MToxMjE5OQ==#wuh
-ss://cmM0LW1kNTpiYXJmb28hQDEwLjEyLjEzLjEwNjoxMjE5OQ==#xiew
-ss://cmM0LW1kNTpiYXJmb28hQDEwLjEyLjEzLjEzODoxMjE5OQ==#zhuzj
-ss://cmM0LW1kNTpiYXJmb28hQDEwLjEyLjEzLjEyOToxMjE5OQ==#zhulin
-ss://cmM0LW1kNTpiYXJmb28hQDEwLjEyLjEzLjEyOToxMjE5OQ==#lic
+
 
 # 实现过程
 
