@@ -15,12 +15,19 @@ shadowsocks、shadowsocks-libqss、winsw。
 4. ssserverSW.NET4 install 
 5. ssserverSW.NET4 start
 6. 设置shadowsocks-libqss防火墙：
-	控制面板-->系统和安全-->Windows Defender 防火墙-->允许应用或功能通过 Windows Defender 防火墙-->更改设置-->找到shadowsocks-libqss将专用公用的勾打上-->确定即可
+	控制面板-->系统和安全-->Windows Defender 防火墙-->允许应用或功能通过 Windows Defender 防火墙-->更改设置-->允许其他应用-->浏览-->找到ssserver-sharedBandwidth路径下的shadowsocks-libqss.exe打开-->添加-->将专用公用的勾打上-->确定即可
+
 
 ## 配置客户端
 
 1. 打开shadowsocks客户端，添加局域网内已经搭建好的ss服务器地址
 2. 右击shadowsocks客户端，选择服务器负载均衡。
+3. 参数配置
+	服务器地址：服务端IP地址
+	服务器端口：12199
+	密码：barfoo！
+	加密：rc4-md5
+	代理端口：1081(可以自定义，最好不要是1080)
 
 ### URL Lists
 

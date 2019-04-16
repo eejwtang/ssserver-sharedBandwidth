@@ -1,0 +1,10 @@
+2019-02-17 22:26:04,281 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-02-17 22:26:04,690 INFO  - Uninstalling the service with id 'ssserver'
+2019-02-17 22:26:04,713 FATAL - Failed to uninstall the service with id 'ssserver'. WMI Error code is 'AccessDenied'
+2019-02-17 22:26:04,719 FATAL - WMI Operation failure: AccessDenied
+WMI.WmiException: AccessDenied
+   дк winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   дк winsw.WrapperService.Main(String[] args)
+2019-02-17 22:26:29,656 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-02-17 22:26:30,038 INFO  - Uninstalling the service with id 'ssserver'
+2019-02-17 22:26:30,056 DEBUG - Completed. Exit code is 0
